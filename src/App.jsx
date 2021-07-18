@@ -9,7 +9,7 @@ export default function App() {
       <Header />
       <Main />
     </AppContainer>
-  )
+  );
 }
 
 const AppContainer = styled.div`

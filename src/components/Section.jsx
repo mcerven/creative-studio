@@ -12,12 +12,13 @@ export default function Section({ children }) {
 }
 
 const PageSection = styled.section`
-  min-height: 20rem;
-  padding-top: 10rem;
+  min-height: 100vh;
+  flex: 1 1 auto;
+  padding-top: 6rem;
+  display: flex;
 
   & .section-inner {
     margin: 0 auto;
-    height: 100%;
     max-width: 86rem;
   }
 `;
